@@ -1,0 +1,18 @@
+modLoader="javafml"
+loaderVersion="[33,)"
+license="GPL v3.0"
+
+[[mods]]
+modId="text_overflow_scroll"
+version="${file.jarVersion}"
+displayName="Scrollable Tooltips"
+displayURL="https://sk1er.club/mods/text_overflow_scroll"
+description="Allows for scrolling on tooltips"
+
+[[mixins]]
+config="mixins.scrollabletooltips.json"
+
+[[dependencies.text_overflow_scroll]]
+modId="kotlinforforge"
+mandatory=true
+versionRange="[0,)"

@@ -1,0 +1,13 @@
+{
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_17",
+  "package": "club.sk1er.mods.scrollabletooltips.mixin",
+  "plugin": "club.sk1er.mods.scrollabletooltips.mixin.plugin.MixinPlugin",
+  "refmap": "mixins.scrollabletooltips.refmap.json",
+  "client": [
+    "accessors.AccessorHandledScreen",
+    "MouseMixin_CaptureScrolling",
+    "ScreenMixin_ResetTooltipScroll",
+    "ScreenMixin_TranslateTooltip"
+  ]
+}

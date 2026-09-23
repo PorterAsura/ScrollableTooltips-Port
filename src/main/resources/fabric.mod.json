@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "text_overflow_scroll",
+  "name": "Scrollable Tooltips",
+  "description": "Allows for scrolling and scaling on tooltips that overflow the screen.",
+  "version": "${version}",
+  "license": "GPL-3.0",
+  "icon": "assets/text_overflow_scroll/icon.png",
+  "environment": "client",
+  "mixins": [
+    "mixins.scrollabletooltips.json"
+  ],
+  "contact": {
+    "homepage": "https://sk1er.club/mods/text_overflow_scroll",
+    "sources": "https://github.com/Sk1erLLC/ScrollableTooltipsPort",
+    "issues": "https://github.com/Sk1erLLC/ScrollableTooltipsPort/issues"
+  },
+  "authors": [
+    {
+      "name": "Sk1er LLC",
+      "contact": {
+        "homepage": "https://sk1er.club"
+      }
+    },
+    {
+      "name": "sanctuary"
+    }
+  ],
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.website": "https://sk1er.club/mods/text_overflow_scroll"
+      }
+    }
+  }
+}
